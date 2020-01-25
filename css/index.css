@@ -150,16 +150,107 @@ footer nav a {
 
 /* top nav bar */
 
-/* center image */
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 2%;
+    
+}
 
+/* center image */
+.center-image{
+    display:flex;
+    justify-content:center;
+}
 /* left box under image */
+.container .text-container{
+    padding:2%;
+}
 
 /* right box under image */
 
 /* box of boxes */
+.middle-content{
+    display:flex;
+    flex-wrap:wrap;
+}
+.middle-content h2{
+    width:100%;
+}
+.boxes{
+    display:flex;
+    flex-wrap:wrap;
+}
+
 
 /* color boxes 1-10 */
+.box1{
+    
+    color:white;
+    background:teal;
+    width:20%
+}
+.box2{
+   
+    color:white;
+    background:gold;
+    width:20%;
+}
+.box3{
+    
+    color:white;
+    background:cadetblue;
+    width:20%;
+}
+.box4{
+    
+    color:white
+    background:coral;
+    width:20%;
+}
+.box5{
+    color:white;
+    background:crimson;
+    width:20%;
+    height:50%;
+}
+.box6{
+    color:white;
+    background:forestgreen;
+    width:20%;
+    height:50;
+}
 
+.box7{
+    color:white;
+    background:darkorchid;
+    width:20%;
+    height:50;
+}
+.box8{
+    color:white;
+    background:hotpink;
+    width:20%;
+    height:50%;
+}
+.box9{
+    border: 1px solid grey;
+    color:white;
+    background:indigo;
+    width:20%;
+    height:50%;
+}
+.box10{
+    border: 1px solid grey;
+    color:white;
+    background:dodgerblue;
+    width:20%;
+    height:50%;
+}
 /* thats no moon 3 boxes */
 
 /* bottom nav bar */
