@@ -321,7 +321,7 @@ footer nav{
 .about-page{
     font-weight: bold;
     padding:10px;
-    border-bottom:1px dashed black;
+    /* border-bottom:1px dashed black; */
 }
 
 /* top nav bar */
@@ -339,7 +339,7 @@ footer nav{
 .row{
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-evenly;
+    justify-content:left;
 }
 .row-box{
     display:flex;
