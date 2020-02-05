@@ -146,7 +146,7 @@ footer nav a {
 }
 
 
-/* css for home */
+/* css for product page */
 
 /* top nav bar */
 
@@ -172,6 +172,12 @@ nav a{
 .center-image{
     display:flex;
     justify-content:center;
+    height: auto;
+    width: 60%;
+}
+.center-image{
+    width:100%;
+    height:auto;
 }
 /* left box under image */
 .container .text-container{
@@ -317,79 +323,3 @@ footer nav{
 
 
 
-/* css for about */
-.about-page{
-    font-weight: bold;
-    padding:10px;
-    /* border-bottom:1px dashed black; */
-}
-
-/* top nav bar */
-
-/* center image */
-
-.about-text{
-    border-bottom:1px dashed black;
-    margin-bottom:2%;
-}
-/* center content under image maybe use a column */
-
-
-/* box for 4 areas */
-.row{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:left;
-}
-.row-box{
-    display:flex;
-    flex-direction: column;
-    width:40%;
-    margin:4%;
-    margin-top:1%;
-    border-bottom: 1px dashed  black;
-    padding-bottom:2%;
-    align-items:flex-start;
-}
-
-.row-box h2{
-    margin-top:2%;
-    }
-
-.row-box a{
-    border: 2px solid black;
-    color:black;
-    text-decoration:none;
-    width:50%;
-    margin: 2%;
-    border-radius: 6px;
-    text-align:center;
-    padding:3%;
-    padding-top: 3%;
-    padding-bottom:3%;
-    margin-left:0px;
-}
-.row-box-problem a{
-    border: 2px solid black;
-    color:black;
-    text-decoration:none;
-    width:50%;
-    margin: 2%;
-    border-radius: 6px;
-    text-align:center;
-    padding:3%;
-    padding-top: 3%;
-    padding-bottom:3%;
-    margin-left:0px;
-}
-    /* area left box align column */
-
-    /* area right align column */
-
-
-/* botom box lets work together */
-
-.about-text-bottom{
-    border-bottom:none;
-    margin-bottom:4%;
-}
